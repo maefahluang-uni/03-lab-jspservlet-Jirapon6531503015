@@ -9,6 +9,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 //TODO: add webservlet to "/calbmi"
+@WebServlet("/calbmi")
 public class BMICalculatorServlet extends HttpServlet{
 
     @Override
